@@ -63,7 +63,7 @@ hi IncSearch ctermbg=3 ctermfg=0
 hi Search ctermbg=3 ctermfg=0
 hi Directory ctermbg=NONE ctermfg=4
 hi MatchParen ctermbg=2 ctermfg=0
-hi ColorColumn ctermbg=1 ctermfg=0
+hi ColorColumn ctermbg=9 ctermfg=0
 hi signColumn ctermbg=NONE ctermfg=4
 hi ErrorMsg ctermbg=NONE ctermfg=8
 hi ModeMsg ctermbg=NONE ctermfg=2
