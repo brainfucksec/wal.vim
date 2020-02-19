@@ -1,7 +1,7 @@
 " wal.vim -- Vim color scheme
 " Author:       Dylan Arapsa
 " Fork:         Brainfuck (brainfucksec)
-" Version:      0.2-beta - 2020-02-19
+" Version:      0.2.1-beta - 2020-02-19
 " Description:  A colorscheme that uses your terminal colors, made to work with 'pywal'.
 " Webpage:      https://github.com/dylanaraps/pywal
 
@@ -15,7 +15,7 @@ endif
 " Colorscheme name
 let g:colors_name = 'wal'
 
-"za highlight groups {{{
+"highlight groups {{{
 
 " set t_Co=16
 hi Normal ctermbg=0 ctermfg=7
@@ -31,7 +31,7 @@ hi Statement ctermbg=NONE ctermfg=1
 hi String ctermbg=NONE ctermfg=1
 hi Number ctermbg=NONE ctermfg=7
 hi Todo ctermbg=2 ctermfg=0
-hi Type ctermbg=NONE ctermfg=3
+hi Type ctermbg=NONE ctermfg=1
 hi Underlined ctermbg=NONE ctermfg=1 cterm=underline
 hi StatusLine ctermbg=0 ctermfg=7
 hi StatusLineNC ctermbg=0 ctermfg=7
@@ -40,7 +40,7 @@ hi TabLineFill ctermbg=NONE ctermfg=8
 hi TabLineSel ctermbg=4 ctermfg=0
 hi TermCursorNC ctermbg=3 ctermfg=0
 hi VertSplit ctermbg=9 ctermfg=0
-hi Title ctermbg=NONE ctermfg=3
+hi Title ctermbg=NONE ctermfg=4
 hi CursorLine ctermbg=8 ctermfg=0
 hi LineNr ctermbg=NONE ctermfg=2
 hi CursorLineNr ctermbg=NONE ctermfg=8
@@ -150,7 +150,7 @@ hi markdownAutomaticLink ctermbg=NONE ctermfg=2 cterm=underline
 hi markdownError ctermbg=NONE ctermfg=7
 hi markdownCode ctermbg=NONE ctermfg=5
 hi markdownCodeBlock ctermbg=NONE ctermfg=5
-hi markdownCodeDelimiter ctermbg=NONE ctermfg=8
+hi markdownCodeDelimiter ctermbg=NONE ctermfg=6
 hi markdownItalic cterm=Italic
 hi markdownBold cterm=Bold
 hi xdefaultsValue ctermbg=NONE ctermfg=7
