@@ -4,6 +4,8 @@
 
 A vim colorscheme for use with **[pywal](https://github.com/dylanaraps/pywal)**.
 
+![alt text](https://github.com/brainfucksec/wal.vim/blob/master/screenshot.png)
+
 
 ## Installation
 
