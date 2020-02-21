@@ -1,8 +1,11 @@
 # wal.vim
 
+## [pywal](https://github.com/dylanaraps/pywal) module: colorscheme for [vim](https://www.vim.org/), [neovim](https://neovim.io/).
+
+See: https://github.com/dylanaraps/pywal/wiki/Customization#vim
+
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-A vim colorscheme for use with **[pywal](https://github.com/dylanaraps/pywal)**.
 
 ![alt text](https://github.com/brainfucksec/wal.vim/blob/master/screenshot.png)
 
@@ -37,6 +40,9 @@ cp -Rv wal.vim ~/.vim/pack/plugins/start/
 ```
 
 3. activate the theme as written above.
+
+
+**Neovim users, make sure to remove [`set termguicolors`](https://github.com/dylanaraps/wal.vim/issues/3) as it messes up the colorscheme.**
 
 
 **Please note that the plugin is in [beta version](https://github.com/brainfucksec/wal.vim/commit/07750d83b51224709c93f6919f75a524a71ca6d0) and has not been tested with all languages, I invite you to report improvements to be made**.
