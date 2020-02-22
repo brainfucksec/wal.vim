@@ -4,8 +4,7 @@
 
 See: https://github.com/dylanaraps/pywal/wiki/Customization#vim
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
-
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) [![Version](https://img.shields.io/badge/fork-%20dylanaraps%2Fwal.vim-brightgreen.svg)](https://github.com/dylanaraps/wal.vim)
 
 ![alt text](https://github.com/brainfucksec/wal.vim/blob/master/screenshot.png)
 
@@ -43,7 +42,6 @@ cp -Rv wal.vim ~/.vim/pack/plugins/start/
 
 
 **Neovim users, make sure to remove [`set termguicolors`](https://github.com/dylanaraps/wal.vim/issues/3) as it messes up the colorscheme.**
-
 
 **Please note that the plugin is in [beta version](https://github.com/brainfucksec/wal.vim/commit/07750d83b51224709c93f6919f75a524a71ca6d0) and has not been tested with all languages, I invite you to report improvements to be made**.
 
