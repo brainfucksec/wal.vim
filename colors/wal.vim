@@ -1,7 +1,7 @@
 " wal.vim -- Vim color scheme
 " Author:       Dylan Arapsa (https://github.com/dylanaraps/wal.vim)
 " Fork:         Brainfuck (brainfucksec)
-" Version:      0.2.4-beta - 2020-02-20
+" Version:      0.2.5-beta - 2020-02-23
 " Description:  A colorscheme that uses your terminal colors, made to work with 'pywal'.
 " Webpage:      https://github.com/brainfucksec/wal.vim
 
@@ -40,9 +40,9 @@ hi TabLineFill ctermbg=NONE ctermfg=8
 hi TabLineSel ctermbg=4 ctermfg=0
 hi TermCursorNC ctermbg=3 ctermfg=0
 hi VertSplit ctermbg=9 ctermfg=0
-hi Title ctermbg=NONE ctermfg=4
+hi Title ctermbg=NONE ctermfg=5
 hi CursorLine ctermbg=8 ctermfg=0
-hi LineNr ctermbg=NONE ctermfg=2
+hi LineNr ctermbg=NONE ctermfg=4
 hi CursorLineNr ctermbg=NONE ctermfg=8
 hi helpLeadBlank ctermbg=NONE ctermfg=7
 hi helpNormal ctermbg=NONE ctermfg=7
@@ -52,7 +52,7 @@ hi Pmenu ctermbg=1 ctermfg=7
 hi PmenuSbar ctermbg=6 ctermfg=7
 hi PmenuSel ctermbg=4 ctermfg=0
 hi PmenuThumb ctermbg=8 ctermfg=8
-hi FoldColumn ctermbg=NONE ctermfg=7
+hi FoldColumn ctermbg=NONE ctermfg=8
 hi Folded ctermbg=NONE ctermfg=2
 hi WildMenu ctermbg=2 ctermfg=0
 hi SpecialKey ctermbg=NONE ctermfg=8
@@ -60,8 +60,8 @@ hi DiffAdd ctermbg=NONE ctermfg=2
 hi DiffChange ctermbg=NONE ctermfg=8
 hi DiffDelete ctermbg=NONE ctermfg=1
 hi DiffText ctermbg=NONE ctermfg=4
-hi IncSearch ctermbg=3 ctermfg=0
-hi Search ctermbg=3 ctermfg=0
+hi IncSearch ctermbg=1 ctermfg=0
+hi Search ctermbg=1 ctermfg=0
 hi Directory ctermbg=NONE ctermfg=4
 hi MatchParen ctermbg=2 ctermfg=0
 hi ColorColumn ctermbg=2 ctermfg=0
@@ -145,12 +145,12 @@ hi markdownH1 ctermbg=NONE ctermfg=7
     hi link markdownH4 markdownH1
     hi link markdownH5 markdownH1
     hi link markdownH6 markdownH1
-hi markdownAutomaticLink ctermbg=NONE ctermfg=2 cterm=underline
+hi markdownAutomaticLink ctermbg=NONE ctermfg=1 cterm=underline
     hi link markdownUrl markdownAutomaticLink
 hi markdownError ctermbg=NONE ctermfg=7
-hi markdownCode ctermbg=NONE ctermfg=6
-hi markdownCodeBlock ctermbg=NONE ctermfg=6
-hi markdownCodeDelimiter ctermbg=NONE ctermfg=5
+hi markdownCode ctermbg=NONE ctermfg=5
+hi markdownCodeBlock ctermbg=NONE ctermfg=5
+hi markdownCodeDelimiter ctermbg=NONE ctermfg=6
 hi markdownItalic cterm=Italic
 hi markdownBold cterm=Bold
 hi xdefaultsValue ctermbg=NONE ctermfg=7
