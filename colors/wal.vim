@@ -15,14 +15,14 @@ endif
 " Colorscheme name
 let g:colors_name = 'wal'
 
-" highlight groups {{{
+"za highlight groups {{{
 
 " set t_Co=16
 hi Normal ctermbg=0 ctermfg=7
 hi NonText ctermbg=NONE ctermfg=0
 hi Comment ctermbg=NONE ctermfg=2
 hi Constant ctermbg=NONE ctermfg=6
-hi Error ctermbg=2 ctermfg=7
+hi Error ctermbg=1 ctermfg=7
 hi Identifier ctermbg=NONE ctermfg=4 cterm=BOLD
 hi Ignore ctermbg=8 ctermfg=0
 hi PreProc ctermbg=NONE ctermfg=3
