@@ -1,7 +1,7 @@
 " wal.vim -- Vim color scheme
 " Author:       Dylan Arapsa (https://github.com/dylanaraps/wal.vim)
 " Fork:         Brainfuck (brainfucksec)
-" Version:      0.2.10-beta - 2020-03-06
+" Version:      0.2.11-beta - 2020-03-06
 " Description:  A colorscheme that uses your terminal colors, made to work with 'pywal'.
 " Webpage:      https://github.com/brainfucksec/wal.vim
 
@@ -50,7 +50,7 @@ hi Visual ctermbg=0 ctermfg=15 cterm=reverse term=reverse
 hi VisualNOS ctermbg=NONE ctermfg=1
 hi Pmenu ctermbg=1 ctermfg=7
 hi PmenuSbar ctermbg=1 ctermfg=7
-hi PmenuSel ctermbg=5 ctermfg=0
+hi PmenuSel ctermbg=8 ctermfg=0
 hi PmenuThumb ctermbg=8 ctermfg=8
 hi FoldColumn ctermbg=NONE ctermfg=8
 hi Folded ctermbg=NONE ctermfg=2
